@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/react-developer-portfolio-template/static/css/main.916dca37.css",
+    "main.js": "/react-developer-portfolio-template/static/js/main.d295bd54.js",
+    "static/media/final_passport.png": "/react-developer-portfolio-template/static/media/final_passport.85f1162993866552fcb3.png",
+    "static/media/logo.png": "/react-developer-portfolio-template/static/media/logo.98b9872eef4d04758772.png",
+    "static/media/Visual_Studio_Icon_2019.svg.png": "/react-developer-portfolio-template/static/media/Visual_Studio_Icon_2019.svg.7f9758528fa25212830f.png",
+    "static/media/C_Sharp_Logo_2023.svg.png": "/react-developer-portfolio-template/static/media/C_Sharp_Logo_2023.svg.150321b214ca75e0c397.png",
+    "static/media/ChatGPT_logo.svg.png": "/react-developer-portfolio-template/static/media/ChatGPT_logo.svg.bdb6658964d40d42d97a.png",
+    "static/media/NET_Core_Logo.svg.png": "/react-developer-portfolio-template/static/media/NET_Core_Logo.svg.470c2c11e7dc031e6f97.png",
+    "static/media/PostgreSQL.png": "/react-developer-portfolio-template/static/media/PostgreSQL.eba8cd3a04411be7a155.png",
+    "static/media/project2.jpg": "/react-developer-portfolio-template/static/media/project2.5fae296d371cc56cd98a.jpg",
+    "static/media/project4.jpg": "/react-developer-portfolio-template/static/media/project4.a7b7ed11daa072b234eb.jpg",
+    "static/media/project3.jpg": "/react-developer-portfolio-template/static/media/project3.03535c34c110b7ea292b.jpg",
+    "static/media/sql.png": "/react-developer-portfolio-template/static/media/sql.2cd36f8007290bccd1b0.png",
+    "static/media/devops.png": "/react-developer-portfolio-template/static/media/devops.528a190fa5c6b18593f9.png",
+    "static/media/project5.jpg": "/react-developer-portfolio-template/static/media/project5.f78aa3fd070fc4dd0bd1.jpg",
+    "static/media/logo2.svg": "/react-developer-portfolio-template/static/media/logo2.b34d54a6d84876ef2b4fa457fa569c06.svg",
+    "static/media/project6.jpg": "/react-developer-portfolio-template/static/media/project6.a22c939898d6c4613b65.jpg",
+    "index.html": "/react-developer-portfolio-template/index.html",
+    "main.916dca37.css.map": "/react-developer-portfolio-template/static/css/main.916dca37.css.map",
+    "main.d295bd54.js.map": "/react-developer-portfolio-template/static/js/main.d295bd54.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.916dca37.css",
+    "static/js/main.d295bd54.js"
+  ]
+}
