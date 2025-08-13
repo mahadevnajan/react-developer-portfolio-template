@@ -1,24 +1,24 @@
 // Enter all your detials in this file
 // Logo images
-import logogradient from "./assets/logo.svg";
+import logogradient from "./assets/logo.png";
 import logo from "./assets/logo2.svg";
 // Profile Image
-import profile from "./assets/profile.jpg";
+import profile from "./assets/final_passport.png";
 // Tech stack images
 import html from "./assets/techstack/html.png";
 import css from "./assets/techstack/css.png";
-import sass from "./assets/techstack/sass.png";
+import sass from "./assets/PostgreSQL.png";
 import js from "./assets/techstack/js.png";
-import react from "./assets/techstack/react.png";
-import redux from "./assets/techstack/redux.png";
-import tailwind from "./assets/techstack/tailwind.png";
-import bootstrap from "./assets/techstack/bootstrap.png";
+import react from "./assets/NET_Core_Logo.svg.png";
+import redux from "./assets/devops.png";
+import tailwind from "./assets/sql.png";
+import bootstrap from "./assets/C_Sharp_Logo_2023.svg.png";
 import vscode from "./assets/techstack/vscode.png";
 import github from "./assets/techstack/github.png";
 import git from "./assets/techstack/git.png";
-import npm from "./assets/techstack/npm.png";
+import npm from "./assets/Visual_Studio_Icon_2019.svg.png";
 import postman from "./assets/techstack/postman.png";
-import figma from "./assets/techstack/figma.png";
+import figma from "./assets/ChatGPT_logo.svg.png";
 // Porject Images
 import projectImage1 from "./assets/projects/project1.jpg";
 import projectImage2 from "./assets/projects/project2.jpg";
@@ -35,16 +35,21 @@ export const logos = {
 
 // Enter your Personal Details here
 export const personalDetails = {
-  name: "Pavan MG",
-  tagline: "I build things for web",
+  name: "Mahadev Najan",
+  tagline: "Transforming Concepts into Functional Realities",
   img: profile,
-  about: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.`,
+  about: `I am a passionate and detail-oriented Software Engineer with hands-on 
+  experience in developing user-friendly and efficient web applications. Skilled 
+  in HTML, CSS, JavaScript, C#, and .NET Core MVC, Web API , EF Core , LINQ have worked on end-to-end projects 
+  involving frontend design, backend logic, database management, and API integration. 
+  I am quick to adapt to new technologies, eager to learn, and thrive in collaborative 
+  environments to deliver high-quality software solutions.`,
 };
 
 // Enter your Social Media URLs here
 export const socialMediaUrl = {
-  linkdein: "https://www.linkedin.com/",
-  github: "https://www.github.com/",
+  linkdein: "https://www.linkedin.com/in/mahadev-najan-859207208/",
+  github: "https://github.com/mahadevnajan",
   twitter: "https://twitter.com/",
   instagram: "https://www.instagram.com/",
 };
@@ -52,44 +57,32 @@ export const socialMediaUrl = {
 // Enter your Work Experience here
 export const workDetails = [
   {
-    Position: "Frontend Web Developer",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
+    Position: "Associate Software Product Analyst",
+    Company: `BlueBenz Digitizations Pvt Ltd`,
+    Location: "Pune-Maharashtra",
     Type: "Full Time",
-    Duration: "Sep 2021 - Dec 2021",
+    Duration: "Oct 2024 - May 2025",
   },
   {
-    Position: "Internship",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
+    Position: "Software Engineer Intern",
+    Company: `Acks Solution Pvt Ltd`,
+    Location: "Ahmednagar-Maharashtra",
     Type: "Internship",
-    Duration: "Sep 2021 - Dec 2021",
+    Duration: "Apri 2024 - Sep 2024",
   },
-  {
-    Position: "Internship",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
-    Type: "Internship",
-    Duration: "Sep 2021 - Dec 2021",
-  },
+  
 ];
 
 // Enter your Education Details here
 export const eduDetails = [
   {
-    Position: "Frontend Development",
-    Company: "Udemy, YouTube, Google, Medium",
-    Location: "Online",
+    Position: "Bachelor in Information Technology",
+    Company: "Savitribai Phule Pune University",
+    Location: "Pune",
     Type: "Full Time",
-    Duration: "Jan 2022 - Present",
+    Duration: "Jul 2020 - May 2024",
   },
-  {
-    Position: "Bachelor in Electronics & Communication",
-    Company: `Your College Name here`,
-    Location: "Bengaluru",
-    Type: "Full Time",
-    Duration: "Aug 2020 - Present",
-  },
+  
 ];
 
 // Tech Stack and Tools
@@ -101,7 +94,7 @@ export const techStackDetails = {
   redux: redux,
   sass: sass,
   tailwind: tailwind,
-  bootstrap: bootstrap,
+  bootstrap: bootstrap, 
   vscode: vscode,
   postman: postman,
   npm: npm,
@@ -113,33 +106,32 @@ export const techStackDetails = {
 // Enter your Project Details here
 export const projectDetails = [
   {
-    title: "Project title 1",
+    title: "TARA",
     image: projectImage1,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
+    description: `Developed a task management system enabling task creation, assignment (self, users, groups), scheduling, reminders, and WhatsApp notifications via Twilio API. Implemented task expiration 
+    and automated status updates using Quartz.NET scheduler. Integrated Expo Push Notifications for real-time alerts. Built backend APIs with C#, ASP.NET Core Web API, EF Core, LINQ, and PostgreSQL.`,
     techstack: "HTML/CSS, JavaScript",
     previewLink: "https://google.com",
     githubLink: "https://github.com",
   },
   {
-    title: "Project title 2",
+    title: "CodeVora Web Application",
     image: projectImage2,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
+    description: `CodeVora Web Application – Built a responsive IT solutions website using .NET Core MVC with MS SQL Server backend, 
+    featuring service pages, internship listings, Google OAuth login, admin/user panels, and API-driven user & job application management.`,
     techstack: "HTML/CSS, JavaScript",
     previewLink: "https://google.com",
     githubLink: "https://github.com",
   },
   {
-    title: "Project title 3",
+    title: "Asset Management System",
     image: projectImage3,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
+    description: `Asset Management System – Designed and developed a web-based application using .NET Core Web API, EF Core, LINQ, and MS SQL Server to streamline asset tracking, manage allocations, monitor maintenance schedules, and generate real-time analytical reports with secure role-based access control.`,
     techstack: "HTML/CSS, JavaScript",
     previewLink: "https://google.com",
     githubLink: "https://github.com",
   },
-  {
+  /*{
     title: "Project title 4",
     image: projectImage4,
     description: `This is sample project description random things are here in description This is sample
@@ -166,10 +158,11 @@ project lorem ipsum generator for dummy content`,
     previewLink: "https://google.com",
     githubLink: "https://github.com",
   },
+  */
 ];
 
 // Enter your Contact Details here
 export const contactDetails = {
-  email: "hi@example.com",
-  phone: "+91 12345 67890",
+  email: "najanmahadev99@gmail.com",
+  phone: "+91 7559256062",
 };
